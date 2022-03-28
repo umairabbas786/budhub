@@ -1,0 +1,798 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+*::before
+*::after
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v12_2044 {
+    width: 100%;
+    height: 17800px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2045 {
+    width: 183px;
+    height: 375px;
+    background: url("../images/v12_2045.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 18344px;
+    left: 49px;
+    overflow: hidden;
+  }
+  .v12_2046 {
+    width: 161px;
+    height: 5px;
+    background: rgba(74,172,116,1);
+    opacity: 1;
+    position: absolute;
+    top: 198px;
+    left: 639px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    overflow: hidden;
+  }
+  .v12_2047 {
+    width: 267px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 149px;
+    left: 587px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2048 {
+    width: 100%;
+    height: 93px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2049 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/v12_2049.png");
+    opacity: 1;
+    position: absolute;
+    top: 39px;
+    left: 1392px;
+    border: 1px solid rgba(255,255,255,1);
+  }
+  .v12_2050 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/v12_2050.png");
+    opacity: 1;
+    position: absolute;
+    top: 39px;
+    left: 1392px;
+    border: 1px solid rgba(255,255,255,1);
+  }
+  .v12_2051 {
+    width: 100%;
+    height: 93px;
+    background: rgba(4,2,4,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2052 {
+    width: 152px;
+    height: 64px;
+    background: url("../images/v12_2052.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    left: 29px;
+    overflow: hidden;
+  }
+  .v12_2053 {
+    width: 47px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 36px;
+    left: 633px;
+    font-family: DM Sans;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2054 {
+    width: 182px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 36px;
+    left: 771px;
+    font-family: DM Sans;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2055 {
+    width: 48px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 36px;
+    left: 1011px;
+    font-family: DM Sans;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2056 {
+    width: 63px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 36px;
+    left: 1152px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2057 {
+    width: 12px;
+    height: 16px;
+    background: url("../images/v12_2057.png");
+    opacity: 1;
+    position: absolute;
+    top: 39px;
+    left: 1338px;
+    border: 1px solid rgba(255,255,255,1);
+  }
+  .v12_2058 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/v12_2058.png");
+    opacity: 1;
+    position: absolute;
+    top: 39px;
+    left: 1280px;
+    border: 1px solid rgba(255,255,255,1);
+  }
+  .v12_2059 {
+    width: 100%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 275px;
+    left: 104px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2060 {
+    width: 100%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 733px;
+    left: 104px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2061 {
+    width: 100%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1603px;
+    left: 104px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2062 {
+    width: 146px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 5055px;
+    left: 104px;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2063 {
+    width: 100%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 5109px;
+    left: 104px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2064 {
+    width: 100%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 7376px;
+    left: 104px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2065 {
+    width: 100%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 8109px;
+    left: 110px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2066 {
+    width: 100%;
+    height: 433px;
+    background: rgba(0,0,0,0.9399999976158142);
+    opacity: 1;
+    position: absolute;
+    top: 17367px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2067 {
+    width: 183px;
+    height: 76px;
+    background: url("../images/v12_2067.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 17400px;
+    left: 65px;
+    overflow: hidden;
+  }
+  .v12_2068 {
+    width: 100%;
+    height: 223px;
+    background: url("../images/v12_2068.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 17416px;
+    left: 79px;
+    overflow: hidden;
+  }
+  .v12_2069 {
+    width: 218px;
+    height: 137px;
+    background: url("../images/v12_2069.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 86px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2070 {
+    width: 218px;
+    height: 137px;
+    background: url("../images/v12_2070.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2071 {
+    width: 109px;
+    height: 20px;
+    background: url("../images/v12_2071.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 117px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2072 {
+    width: 18px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Font Awesome 5 Brands;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: right;
+  }
+  .v12_2073 {
+    width: 20px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    font-family: Font Awesome 5 Brands;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: right;
+  }
+  .v12_2074 {
+    width: 13px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 96px;
+    font-family: Font Awesome 5 Brands;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: right;
+  }
+  .v12_2075 {
+    width: 167px;
+    color: rgba(37,37,37,1);
+    position: absolute;
+    top: 0px;
+    left: 51px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2076 {
+    width: 41px;
+    height: 41px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2077 {
+    width: 23px;
+    height: 23px;
+    background: url("../images/v12_2077.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    overflow: hidden;
+  }
+  .v12_2078 {
+    width: 23px;
+    height: 23px;
+    background: url("../images/v12_2078.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2079 {
+    width: 23px;
+    height: 23px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .v12_2080 {
+    width: 41px;
+    height: 40px;
+    background: url("../images/v12_2080.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2081 {
+    width: 41px;
+    height: 40px;
+    background: url("../images/v12_2081.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2082 {
+    width: 41px;
+    height: 40px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .v12_2083 {
+    width: 218px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2084 {
+    width: 200px;
+    height: 188px;
+    background: url("../images/v12_2084.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 365px;
+    overflow: hidden;
+  }
+  .v12_2085 {
+    width: 124px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2086 {
+    width: 161px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2087 {
+    width: 138px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 77px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2088 {
+    width: 200px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 106px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2089 {
+    width: 138px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2090 {
+    width: 138px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 164px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2091 {
+    width: 138px;
+    height: 112px;
+    background: url("../images/v12_2091.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 730px;
+    overflow: hidden;
+  }
+  .v12_2092 {
+    width: 124px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2093 {
+    width: 138px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2094 {
+    width: 138px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2095 {
+    width: 169px;
+    height: 28px;
+    background: url("../images/v12_2095.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 1042px;
+    overflow: hidden;
+  }
+  .v12_2096 {
+    width: 169px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2097 {
+    width: 100%;
+    height: 24px;
+    background: url("../images/v12_2097.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 17709px;
+    left: 79px;
+    overflow: hidden;
+  }
+  .v12_2098 {
+    width: 491px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2099 {
+    width: 457px;
+    height: 16px;
+    background: url("../images/v12_2099.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 880px;
+    overflow: hidden;
+  }
+  .v12_2100 {
+    width: 427px;
+    height: 16px;
+    background: url("../images/v12_2100.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 72px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v12_2101 {
+    width: 44px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2102 {
+    width: 40px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 116px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2103 {
+    width: 50px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 228px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2104 {
+    width: 77px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2105 {
+    width: 4px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 199px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2106 {
+    width: 4px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 81px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2107 {
+    width: 4px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 453px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2108 {
+    width: 4px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 0px;
+    left: 322px;
+    font-family: Hind;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v12_2109 {
+    width: 63px;
+    height: 35px;
+    background: url("../images/v12_2109.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 17472px;
+    left: 1120px;
+    overflow: hidden;
+  }
+  .v12_2110 {
+    width: 83px;
+    height: 64px;
+    background: url("../images/v12_2110.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 17464px;
+    left: 1198px;
+    overflow: hidden;
+  }
