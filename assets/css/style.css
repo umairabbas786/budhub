@@ -289,6 +289,133 @@ text-decoration: none;
 }
 /*Contact us page end*/
 
+/*Cart Page start*/
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.main .cart {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+.main .cart h1 {
+  font-family: Montserrat_SemiBold, serif;
+  font-size: 5rem;
+}
+.main .cart .methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: Montserrat_SemiBold, serif;
+  gap: 3rem;
+}
+.main .cart .methods .text{
+  color:#818181;
+}
+.main table thead{
+  font-size: 2rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Montserrat_SemiBold, serif;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+.main table thead tr th,.main table tbody tr td{
+  padding: 2rem 10rem 2rem 2rem;
+  font-size: 2rem;
+}
+.main table tbody .row-img{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.main table tbody .row-img img{
+  max-width: 20%;
+}
+.main .card img{
+  max-width: 100%;
+}
+.main .card{
+  background: #FFFFFF;
+box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+padding: 20px;
+}
+.main .card .head{
+  margin-top: 14px;
+  font-size:1.5rem;
+}
+.main .card .text{
+  font-size: 1.5rem;
+}
+.bill .head{
+  font-size: 3rem;
+}
+.bill table tr th{
+  padding: 2rem 10rem 2rem 2rem;
+  font-size: 2rem;
+}
+.bill .btn{
+  font-size: 2rem;
+  border-radius: 44px;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Montserrat_SemiBold, serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #4BAC75;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .cart-items{
+    display: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  .main .cart .head {
+    position: relative;
+  }
+  .main .cart .head {
+    border-radius: 3px;
+    border-bottom: 5px solid #16AD57;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main .cart {
+    margin-top: 30px;
+    display: block;
+  }
+  .main .cart h1 {
+    font-family: Montserrat_SemiBold, serif;
+    font-size: 4rem;
+  }
+  .main .cart .methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+}
+
+/*Cart Page end*/
+
 .footer {
   font-family: Hind, sans-serif;
   background: rgba(0, 0, 0, 0.94);
@@ -2423,54 +2550,6 @@ text-decoration: none;
   width: max-content;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  max-width: 90%;
-  margin: 0 auto;
-  gap: 2rem;
-}
-.main .cart {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 3rem;
-}
-.main .cart h1 {
-  font-family: Montserrat_SemiBold, serif;
-  font-size: 5rem;
-}
-.main .cart .methods {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-family: Montserrat_SemiBold, serif;
-  gap: 3rem;
-}
-.main .table-heading {
-  display: flex;
-  justify-content: space-between;
-  background-color: #000000;
-  color: #ffffff;
-  padding: 2rem 10rem 2rem 2rem;
-  font-family: Montserrat_SemiBold, serif;
-  font-weight: bold;
-  font-size: 2rem;
-  border-radius: 0.5rem;
-}
-.main .table-data {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main .table-data .row-img {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-.main .table-data .row-img img {
-  max-width: 20%;
-}
 
 html {
   font-size: 62.5%;

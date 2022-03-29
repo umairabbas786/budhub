@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="homepage.css"> -->
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -46,103 +48,123 @@
         </div>
     </nav>
 
-    <div class="outer">
-    <section class="contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mt-5 pt-5 text-center">
-                    <h1 class="head">Contact Us</h1>
-                    <p class="text mt-5">If you need our help, have questions about how to use the platform or are
-                        experiencing technical difficulties, please do not hesitate to contact us.</p>
-                </div>
-                <div class="col-10 contact-form offset-1 mt-5">
-                    <form action="" method="POST" class="p-5 form">
+    <div class="main mb-5">
+        <div class="cart">
+            <h1 class="head">My Cart </h1>
+            <div class="methods">
+                <p>1) Shopping Cart</p>
+                <p class="text">2) Checkout</p>
+                <p class="text">3) Payment</p>
+            </div>
+        </div>
+        <table class="table cart-items">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="row-img">
+                        <img src="assets/img/category-indica.svg" alt="">
+                        <h1>Pineapple Express 3.5 Grams</h1>
+                    </td>
+                    <td>$ 112</td>
+                    <td>2</td>
+                    <td>$224</td>
+                    <td><img src="assets/img/delete.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="row-img">
+                        <img src="assets/img/category-indica.svg" alt="">
+                        <h1>Pineapple Express 3.5 Grams</h1>
+                    </td>
+                    <td>$ 112</td>
+                    <td>2</td>
+                    <td>$224</td>
+                    <td><img src="assets/img/delete.svg" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="row-img">
+                        <img src="assets/img/category-indica.svg" alt="">
+                        <h1>Pineapple Express 3.5 Grams</h1>
+                    </td>
+                    <td>$ 112</td>
+                    <td>2</td>
+                    <td>$224</td>
+                    <td><img src="assets/img/delete.svg" alt=""></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cart-items-mbl my-4 d-inline-block d-md-none">
+                    <div class="card mt-3">
                         <div class="row">
-                        <div class="col-md-6 mt-3">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">your name*</label>
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your name">
+                            <div class="col-6">
+                                <img src="assets/img/category-indica.svg" alt="">
                             </div>
-                        </div>
-                        <div class="col-md-6 mt-3">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">contact email*</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="you@example.com">
+                            <div class="col-6">
+                                <h2 class="head">Pineapple Express 3.5 Grams</h2>
+                                <p class="text">QTY: 2</p>
+                                <h2 class="head">Price: $100<span class="float-right">Total: $500</span></h2>
                             </div>
-                        </div>
-                        <div class="col-md-6 mt-3">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">company name*</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="company name">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mt-3">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">country*</label>
-                                <select name="country" id="" class="form-control">
-                                    <option value="USA" selected>USA</option>
-                                    <option value="PAK">PAK</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mt-3">
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">your message*</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type your message..."></textarea>
-                              </div>
-                        </div>
-                        <div class="col-md-12 text-center my-3">
-                            <button class="open-btn">Contact Us</button>
                         </div>
                     </div>
-                    </form>
+                    <div class="card mt-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="assets/img/category-indica.svg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h2 class="head">Pineapple Express 3.5 Grams</h2>
+                                <p class="text">QTY: 2</p>
+                                <h2 class="head">Price: $100<span class="float-right">Total: $500</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="assets/img/category-indica.svg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <h2 class="head">Pineapple Express 3.5 Grams</h2>
+                                <p class="text">QTY: 2</p>
+                                <h2 class="head">Price: $100<span class="float-right">Total: $500</span></h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-</div>
-    <section class="contact-us-tabs mt-auto">
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-4 text-center mb-5">
-                        <center>
-                            <div class="icon">
-                                <div class="mail-icon"></div>
-                                <div class="mail-dot"></div>
-                            </div>
-                        </center>
-                        <h2 class="head mt-5">Email Us</h2>
-                        <p class="text">Email us for general queries, including buying and delivery isssues.</p>
-                        <p><a href="mailto:info@budhub1.com">info@budhub1.com</a></p>
-                    </div>
-                    <div class="col-md-4 text-center mb-5">
-                        <center>
-                            <div class="icon">
-                                <div class="phone-icon"></div>
-                            </div>
-                        </center>
-                        <h2 class="head mt-5">Call us</h2>
-                        <p class="text">Call us to speak to a member of our team. We are always happy to help.</p>
-                        <p><a href="tel:17029188179">+1 702-918-8179</a></p>
-                    </div>
-                    <div class="col-md-4 text-center mb-5">
-                        <center>
-                            <div class="icon">
-                                <div class="support-icon"></div>
-                            </div>
-                        </center>
-                        <h2 class="head mt-5">Support</h2>
-                        <p class="text">Check out helpful resources, FAQs and general queries.</p>
-                        <p><a href=""><button class="btn btn-outline-success">Support Center <img src="assets/img/arrow.png" alt="arrow"></button></a></p>
-                    </div>
+        <div class="row ml-2">
+            <div class="col-md-12 bill">
+                <h2 class="head mb-5">Cart Totals</h2>
+                <table class="table table-responsive">
+                    <tr>
+                        <th>Subtotal</th>
+                        <td>$250</td>
+                    </tr>
+                    <tr>
+                        <th>Shipping</th>
+                        <td>Free Shipping</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <th>$250</th>
+                    </tr>
+                </table>
+                <p><a href=""><button class="btn mt-3">Check Out</button></a></p>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435521.40795454604!2d74.05419712079538!3d31.48263522418057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1648582203743!5m2!1sen!2s" width="100%" height="450" style="border:0;border-radius:20px;padding: 15px;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-
+    
     <div class="footer">
         <div class="footer-content">
             <div class="f-top">
@@ -227,6 +249,7 @@
             </div>
         </div>
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
