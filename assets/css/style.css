@@ -87,6 +87,208 @@ a:hover,a:active{
 
 /*Cookies page style end*/
 
+/*contact us page start*/
+.outer{
+  height: 135vh;
+}
+.contact-us{
+width: 100%;
+height: 90vh;
+border-radius: 0% 0% 30% 30%;
+background: #4BAC75;
+}
+
+.contact-us .head{
+font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 68px;
+/* identical to box height, or 126% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+}
+.contact-us .text{
+font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.contact-us .contact-form{
+  background: #FFFFFF;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.contact-us .contact-form .form label{
+  font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.contact-us .contact-form .form input{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  /* background: #FFFFFF; */
+  border: 1px solid #C3CAD9;
+  /* box-sizing: border-box; */
+  border-radius: 8px;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #5A7184;
+}
+
+.contact-us .contact-form .form select{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  border: 1px solid #C3CAD9;
+  border-radius: 8px;
+  padding-left: 2rem;
+  color: #5A7184;
+  height: 50px;
+}
+
+.contact-us .contact-form .form textarea{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  border: 1px solid #C3CAD9;
+  border-radius: 8px;
+  padding: 2rem;
+  padding-top: 1.5rem;
+  color: #5A7184;
+}
+
+.contact-us .contact-form .form .open-btn {
+  background-color: #4BAC75;
+  color: #ffffff;
+  border: none;
+  font-family: Poppins-Regular, serif;
+  padding: 0.6em 1.5em;
+  border-radius: 0.6em;
+  font-size: 1.6rem;
+}
+
+.contact-us-tabs .icon{
+  background: #16ad5721;
+  border-radius: 16px;
+  width: 100px;
+  height: 90px;
+}
+.contact-us-tabs .icon .mail-icon{
+  background: url(../img/mail.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-left: 22px;
+  margin-top: 25px;
+  position: absolute;
+}
+.contact-us-tabs .icon .phone-icon{
+  background: url(../img/phone.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 15px;
+  position: absolute;
+}
+.contact-us-tabs .icon .support-icon{
+  background: url(../img/support.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-left: 19px;
+  margin-top: 13px;
+  position: absolute;
+}
+.contact-us-tabs .icon .mail-dot{
+  background: url(../img/mail-dot.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-left: 62px;
+  margin-top: 52px;
+  position: absolute;
+}
+
+.contact-us-tabs .btn{
+  font-family: Poppins-Regular, serif;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  border: 2px solid #16AD57;
+}
+
+.contact-us-tabs .head{
+  font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #183B56;
+}
+.contact-us-tabs .text{
+  font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #5A7184;
+}
+.contact-us-tabs p a{
+  font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 27px;
+color: #16AD57;
+text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-us{
+      border-radius: 0% 0% 0% 0%;
+  }
+  .contact-us .contact-form .form label{
+      font-weight: 500;
+      color: #5A7184;
+      font-size: 14px;
+  }
+  .contact-us .contact-form .form input , .contact-us .contact-form .form select{
+      font-family: Mulish_Regular, serif;
+      font-style: normal;
+      font-size: 14px;
+  }
+  .contact-us .contact-form .form textarea{
+      font-family: Mulish_Regular, serif;
+      font-style: normal;
+      font-size: 14px;
+  }
+  .outer{
+      height: 160vh;
+  }
+}
+/*Contact us page end*/
+
 .footer {
   font-family: Hind, sans-serif;
   background: rgba(0, 0, 0, 0.94);
