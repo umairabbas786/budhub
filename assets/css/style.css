@@ -346,6 +346,14 @@ box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
 border-radius: 8px;
 padding: 20px;
 }
+.main .card .delete{
+  position:absolute;
+  margin-top: -30px;
+  margin-left: 88%;
+  background-color: whitesmoke;
+  padding: 8px;
+  border-radius: 50%;
+}
 .main .card .head{
   margin-top: 14px;
   font-size:1.5rem;
