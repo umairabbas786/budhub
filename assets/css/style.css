@@ -433,8 +433,8 @@ padding: 20px;
   font-size: 0.8rem;
 }
 .signup-page .left {
-  margin-left: -70%;
-  margin-right: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
   height: auto;
   display: grid;
   grid-template-rows: auto 1fr;
@@ -491,6 +491,20 @@ color: #ffffff;
   border: none;
   padding: 0.2em 1em;
   background: transparent;
+}
+.signup-page .left .signup-form .myinput[type="checkbox"] {
+  width: 80px;
+  height: 20px;
+  background: #FFF;
+  border: 2px solid rgba(0, 0, 0, 0.43);
+box-sizing: border-box;
+border-radius: 6px;
+}
+.signup-page .left .signup-form .checkit {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  overflow: hidden;
 }
 .signup-page .left .signup-form .password-input {
   font-size: 2em;
@@ -570,10 +584,6 @@ color: #ffffff;
   min-height: 100%;
 }
 @media only screen and (max-width: 700px){
-  .signup-page .left{
-    margin-left: 0;
-  margin-right: 0;
-  }
   .signup-page .left .logo-banner {
     display: flex;
     justify-content: center;
