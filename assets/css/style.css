@@ -284,7 +284,12 @@ text-decoration: none;
       font-size: 14px;
   }
   .outer{
-      height: 160vh;
+      height: 155vh!important;
+  }
+}
+@media only screen and (min-width: 1920px){
+  .outer{
+    height: 155vh;
   }
 }
 /*Contact us page end*/
@@ -371,8 +376,8 @@ padding: 20px;
 .bill .btn{
   font-size: 2rem;
   border-radius: 44px;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding-right: 10%;
+  padding-left: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Montserrat_SemiBold, serif;
