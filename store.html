@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css'>
+    <!-- <link rel="stylesheet" href="homepage.css"> -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+    .container{
+      max-width: 1280px;
+      margin: 0 auto;
+      height: 100%;
+    }
+    .swiper-container {
+        width: auto;
+        height: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        border-radius: 20px;
+        /* background: #FFFFFF; */
+        /* box-shadow: 2px 2px 34px rgba(0, 0, 0, 0.11); */
+        /* font-size: 18px; */
+        /* background: #fff; */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        height: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <button class="menu-img">
+            <img src="assets/img/bar-menu.svg" alt="menu" onclick="openDrawer()">
+        </button>
+
+        <img src="assets/img/logo.svg" alt="" class="brand">
+
+        <button class="close-btn" id="drawer-close-btn" onclick="closeDrawer()">
+            <img src="assets/img/close-icon.svg" alt="menu">
+        </button>
+
+        <div class="drawer" id="drawer">
+
+            <img src="assets/img/logo.svg" alt="" class="drawer-brand">
+
+            <div class="location">
+                <input type="text" placeholder="Enter a location" class="location-input">
+                <img src="assets/img/location-icon.svg" alt="" class="location-icon">
+            </div>
+
+            <div class="navigation">
+                <a href="index.html" class="nav-links" autofocus>HOME</a>
+                <a href="contact-us.html" class="nav-links">CONTACT 702-918-8179</a>
+                <a href="login.html" class="nav-links">LOGIN</a>
+                <a href="signup.html" class="nav-links">SIGN UP</a>
+            </div>
+
+            <div class="right-icons">
+                <a href="cart.html"><img src="assets/img/cart.svg" alt="" class="cart"></a>
+                <a href="#"><img src="assets/img/profile.svg" alt="" class="profile"></a>
+                <a href="#"><img src="assets/img/navbar-search.svg" alt="" class="search"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="heading">
+        <h1 class="heading-text">420 EXPRESS LAS VEGAS</h1>
+    </div>
+
+    <div class="flowers-top">
+        <p>Over 50+ prouducts available here, find it now!</p>
+        <div class="flowers-search-box">
+            <img src="assets/img/search-black.svg" alt="">
+            <input type="text" style="font-size: 1.5rem;" placeholder="Search Any Flower Here.....">
+        </div>
+    </div>
+
+    <h1 class="category-heading mt-5">Categories</h1>
+
+
+    <div class="container category-slider mt-5 mb-5 d-none d-md-block">   
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card" style="border-radius:20px;">
+                        <img src='assets/img/category-indica.svg' alt='gim'>
+                        <h1 class='category-name my-3'>Indica</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="border-radius:20px;">
+                        <img src='assets/img/flower.svg' alt='gim'>
+                        <h1 class='category-name my-3'>Flower</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="border-radius:20px;">
+                        <img src='assets/img/stiva.svg' alt='gim'>
+                        <h1 class='category-name my-3'>Stiva</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="border-radius:20px;">
+                        <img src='assets/img/edibles.svg' alt='gim'>
+                        <h1 class='category-name my-3'>Edibles</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="border-radius:20px;">
+                        <img src='assets/img/concentates.svg' alt='gim'>
+                        <h1 class='category-name my-3'>Concentates</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card" style="border-radius:20px;">
+                        <img src='assets/img/accessories.svg' alt='gim'>
+                        <h1 class='category-name my-3'>Accessories</h1>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- If we need navigation buttons -->
+            <div id="prev" class="swiper-button-prev"></div>
+            <div id="next" class="swiper-button-next"></div>
+        </div>
+    </div>   
+
+    <h1 class="flowers-heading mt-3 d-none d-md-block">Flower</h1>
+
+
+    <div class="container category-slider mt-5 mb-5 d-none d-md-block">   
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    
+            <!-- If we need navigation buttons -->
+            <div id="prev" class="swiper-button-prev"></div>
+            <div id="next" class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <h1 class="flowers-heading mt-3 d-none d-md-block">Edibles</h1>
+
+
+    <div class="container category-slider mt-5 mb-5 d-none d-md-block">   
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <img src="assets/img/flowers-dark.svg" alt="">
+                        <div class="card-body">
+                          <p class="price">$34.99</p>
+                          <button class="top-rated-btn">Best Pick</button>
+                          <h1>Pineapple Express 3.5 Grams</h1>
+                          <p class="percent">60% Sativa / 40% Indica</p>
+                          <button class="cart-btn">ADD TO CART</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    
+            <!-- If we need navigation buttons -->
+            <div id="prev" class="swiper-button-prev"></div>
+            <div id="next" class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="newsletter">
+
+        <div class="newletter-content">
+            <h1>
+                Subscribe to Newsletter
+            </h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do et eiusmod tempor incididunt ut labore
+                et dolor.
+            </p>
+
+            <div class="email-box">
+                <input type="email" placeholder="Your Email">
+                <button class="subscribe">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="easy-deliver">
+        <div class="left">
+            <h1>
+                We Believe In Quick & Easy Deliveries
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae libero sit amet magna auctor
+                ultricies et nec sapien. Quisque vitae orci et augue malesuada ultricies. Cras quis dolor a dolor
+                finibus auctor.</p>
+            <button class="explore">
+                Explore Now <img src="assets/img/explore%20button.svg" alt="">
+            </button>
+        </div>
+
+        <div class="right">
+            <img src="assets/img/esay-delivery.png">
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="f-top">
+                <div class="f-col-1">
+
+                    <div class="f-logo-img mb-md-0 mb-5">
+                        <img src="assets/img/logo.svg" class="f-logo-img" alt="logo">
+                    </div>
+
+                    <div class="f-whatsapp-contact ml-n4">
+                        <img src="assets/img/whatsapp_icon.svg" class="whatsapp_icon" alt="icon">
+                        <div class="phone">
+                            <div class="para">
+                                CALL US FREE
+                            </div>
+                            <div class="num">
+                                +1 702-918-8179
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-date">
+                        Mon-Sun: 9:00am - 9:00pm
+                    </div>
+
+                    <div class="social-icons">
+                        <img src="assets/img/instagram.svg" alt="">
+                        <img src="assets/img/facebook-f.svg" alt="">
+                        <img src="assets/img/twitter.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="f-col-2">
+
+                    <div class="title">
+                        Get In Touch
+                    </div>
+
+                    <div class="simple_links">
+                        <a href="#">Add a Business</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="cookie-policy.html">Cookie Policy</a>
+                        <a href="#">Your Account</a>
+                    </div>
+
+                </div>
+                <div class="f-col-3">
+                    <div class="title">
+                        Categories
+                    </div>
+                    <div class="simple_links">
+                        <a href="#">Dispenseries</a>
+                        <a href="#">Deliveries</a>
+                    </div>
+                </div>
+                <div class="f-col-4">
+                    <div class="title">
+                        Payment Method
+                    </div>
+
+                    <div class="cash">
+                        <img src="assets/img/dollar.svg" alt="logo">
+                        <img src="assets/img/stripe.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-bottom">
+                <p class="f-b-left">
+                    Maria brandings © All rights reserved Copyrights 2021
+                </p>
+                <div class="f-b-right">
+                    <a href="#" class="b-nav">HOME</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">SHOP</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">ABOUT</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">CONTACTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/navbar.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
+    <script>
+        $(document).ready(function() {
+// Swiper: Slider
+    new Swiper('.swiper-container', {
+        loop: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 4,
+        paginationClickable: true,
+        spaceBetween: 20
+    });
+});
+
+    </script>
+</body>
+
+</html>
