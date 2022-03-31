@@ -2778,12 +2778,17 @@ border-radius: 6px;
   padding: 2rem 0 2rem 11rem;
 }
 
-
+@media only screen and (max-width: 700px){
+  .category-heading{
+    text-align: center;
+    padding-left: 0px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .flowers-top .flowers-search-box {
     width: 50%;
   }
-
+  
   .categories-slider {
     position: relative;
   }
