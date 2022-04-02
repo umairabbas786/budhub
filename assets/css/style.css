@@ -432,6 +432,194 @@ padding: 20px;
 
 /*Cart Page end*/
 
+/*Verify Password*/
+.verify-pass-page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 0.8rem;
+}
+.verify-pass-page .left {
+  height: auto;
+  align-items: start;
+  /* grid-template-rows: auto 1fr; */
+  gap: 4em;
+  padding: 2em 0 0;
+}
+.verify-pass-page .left .logo-banner {
+  display: flex;
+  justify-content: start;
+}
+.verify-pass-page .left .logo-banner img {
+  height: 10em;
+}
+.verify-pass-page .left .logo-back{
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(75, 172, 117, 0.1);
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.verify-pass-page .left .logo-back img{
+  width: 150px;
+  height: 150px;
+  margin-top: 70px;
+}
+.verify-pass-page .left .signup-form {
+  font-size: 1.4em;
+  display: flex;
+  gap: 1.5em;
+  flex-direction: column;
+  padding: 0 0.7em;
+  font-family: Nunito-Regular, serif;
+}
+.verify-pass-page .left .signup-form .signup-heading {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+}
+.verify-pass-page .left .signup-form .text{
+  font-size: 16px;
+}
+.verify-pass-page .left .signup-form .checkit {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.verify-pass-page .left .signup-form .password-input {
+  font-size: 2em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background: #F6F6F6;
+  padding: 0.4em 1em;
+  border-radius: 5em;
+}
+.verify-pass-page .left .signup-form .password-input img {
+  align-self: center;
+  width: 1em;
+  opacity: 0.5;
+}
+.verify-pass-page .left .signup-form .password-input input {
+  font-size: 0.8em;
+  border: none;
+  padding: 0.2em 1em;
+  background: transparent;
+}
+.verify-pass-page .left .signup-form .signup-a .signup-btn {
+  width: 100%;
+  background: #4BAC75;
+  font-size: 1.6em;
+  color: #ffffff;
+  padding: 1em 0;
+  border-radius: 2em;
+  border: none;
+}
+.verify-pass-page .left .signup-form .or-div {
+  font-size: 1.6em;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  padding: 0 2em;
+  gap: 1em;
+}
+.verify-pass-page .left .signup-form .or-div .space-div {
+  height: 2px;
+  background: rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+.verify-pass-page .left .signup-form .social-btns .social-btn img {
+  width: 1.4em;
+}
+.verify-pass-page .left .signup-form .dont-p {
+  margin-top: 0em;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.verify-pass-page .left .signup-form .dont-p .sign-up {
+  color: #4BAC75;
+  font-family: Nunito-SemiBold, serif;
+}
+.verify-pass-page .right {
+  display: none;
+  min-height: 100%;
+  width: auto;
+}
+.verify-pass-page .right .signup-bg {
+  min-height: 100%;
+}
+@media only screen and (max-width: 700px){
+  .verify-pass-page .left {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .verify-pass-page .left .logo-banner {
+    display: flex;
+    justify-content: center;
+  }
+  .verify-pass-page .left .signup-form .text{
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .verify-pass-page {
+    grid-template-columns: 1fr auto;
+  }
+  .verify-pass-page .right {
+    display: initial;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .verify-pass-page .left {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 4rem;
+    padding: 2rem;
+  }
+  .verify-pass-page .left .logo-banner img {
+    height: 14rem;
+  }
+  .verify-pass-page .left .signup-form {
+    font-size: 2rem;
+    gap: 1.5em;
+    padding: 0 20em 10em;
+  }
+  .verify-pass-page .left .signup-form .signup-heading {
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  .verify-pass-page .left .signup-form .password-input {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: #F6F6F6;
+    padding: 1rem 5rem;
+    border-radius: 5rem;
+  }
+  .verify-pass-page .left .signup-form .password-input img {
+    align-self: center;
+    width: 2.4rem;
+    opacity: 0.5;
+  }
+  .verify-pass-page .left .signup-form .password-input input {
+    border: none;
+    font-size: 2rem;
+    padding: 1.2em 2em;
+    background: transparent;
+  }
+  .verify-pass-page .left .signup-form .dont-p .sign-up {
+    color: #4BAC75;
+    font-family: Nunito-SemiBold, serif;
+  }
+}
+
+/*Verify Password*/
+
 /*Sign up start*/
 .signup-page {
   display: grid;
