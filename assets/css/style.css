@@ -2901,28 +2901,39 @@ border-radius: 6px;
   }
 }
 .edibles-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 8rem;
-  padding: 10rem 10rem 2rem 10rem;
+  padding: 10rem 2rem 2rem;
+  justify-content: center;
+  width: 100%;
 }
 .edibles-card .card {
   background-color: #ffffff;
   box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.18);
   border-radius: 3rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
+  padding: 1rem;
+  gap: 1rem;
+  max-width: 400px;
+  min-width: 400px;
 }
 .edibles-card .card img {
-  min-width: 100%;
-  height: auto;
+  min-height: 100%;
+  width: 30%;
   border-radius: 3rem;
 }
 .edibles-card .card .card-body {
-  padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.edibles-card .card .card-body .text-price{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .edibles-card .card .card-body .price {
   color: #4BAC75;
@@ -2933,16 +2944,19 @@ border-radius: 6px;
   background-color: #E09D0F;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   border: none;
   border-radius: 3rem;
+  margin-top: -20px;
+  margin-bottom: 10px;
 }
 .edibles-card .card .card-body h1 {
   font-family: Poppins-Regular, serif;
-  font-size: 3rem;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 .edibles-card .card .card-body .weight {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: Poppins-Regular, serif;
 }
 .edibles-card .card .card-body button {
@@ -2951,51 +2965,63 @@ border-radius: 6px;
   color: #ffffff;
   font-size: 1.6rem;
   border-radius: 3rem;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem 1rem 1rem;
   border: none;
   width: max-content;
 }
 
 .roll-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 8rem;
-  padding: 10rem 10rem 2rem 10rem;
+  padding: 10rem 2rem 2rem;
+  justify-content: center;
+  width: 100%;
 }
 .roll-card .card {
   background-color: #ffffff;
   box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.18);
   border-radius: 3rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
+  padding: 1rem;
+  gap: 1rem;
+  max-width: 600px;
+  min-width: 400px;
 }
 .roll-card .card img {
-  min-width: 100%;
-  height: auto;
+  min-height: 100%;
+  width: auto;
   border-radius: 3rem;
 }
 .roll-card .card .card-body {
-  padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.roll-card .card .card-body .price {
+.roll-card .card .card-body .text-price {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.roll-card .card .card-body .text-price .price {
   color: #4BAC75;
   font-size: 3rem;
   font-family: Poppins-Regular, serif;
 }
-.roll-card .card .card-body .top-rated-btn {
+.roll-card .card .card-body .text-price .top-rated-btn {
   background-color: #E09D0F;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   border: none;
   border-radius: 3rem;
 }
 .roll-card .card .card-body h1 {
   font-family: Poppins-Regular, serif;
-  font-size: 3rem;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 .roll-card .card .card-body .weight {
   font-size: 2.5rem;
@@ -3007,7 +3033,7 @@ border-radius: 6px;
   color: #ffffff;
   font-size: 1.6rem;
   border-radius: 3rem;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem 1rem 1rem;
   border: none;
   width: max-content;
 }
