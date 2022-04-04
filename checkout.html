@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="homepage.css"> -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <button class="menu-img">
+            <img src="assets/img/bar-menu.svg" alt="menu" onclick="openDrawer()">
+        </button>
+
+        <img src="assets/img/logo.svg" alt="" class="brand">
+
+        <button class="close-btn" id="drawer-close-btn" onclick="closeDrawer()">
+            <img src="assets/img/close-icon.svg" alt="menu">
+        </button>
+
+        <div class="drawer" id="drawer">
+
+            <img src="assets/img/logo.svg" alt="" class="drawer-brand">
+
+            <div class="location">
+                <input type="text" placeholder="Enter a location" class="location-input">
+                <img src="assets/img/location-icon.svg" alt="" class="location-icon">
+            </div>
+
+            <div class="navigation">
+                <a href="index.html" class="nav-links" autofocus>HOME</a>
+                <a href="contact-us.html" class="nav-links">CONTACT</a>
+                <a href="login.html" class="nav-links">LOGIN</a>
+                <a href="signup.html" class="nav-links">SIGN UP</a>
+            </div>
+
+            <div class="right-icons">
+                <a href="cart.html"><img src="assets/img/cart.svg" alt="" class="cart"></a>
+                <a href="#"><img src="assets/img/profile.svg" alt="" class="profile"></a>
+                <a href="#"><img src="assets/img/navbar-search.svg" alt="" class="search"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main checkout mb-5">
+        <div class="heading">
+            <h1 class="heading-text">Checkout</h1>
+        </div>
+        <form action="" method="POST">
+        <div class="row mt-n5">
+            <div class="col-md-8 col-12 contact-form">
+                <h1 class="sub-head">Delivery Details</h1>
+                    <div class="row form mt-5">
+                    <div class="col-md-6 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">First Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Last Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Country</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Street Address</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="House Number or No Apt">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Town/City</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">State</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Postal Code</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Cell Number</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12 my-5">
+                        <h1 class="sub-head">Addtional Information</h1>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Order Notes (Optional)</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Notes about your order"></textarea>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 bill">
+                <div class="card">
+                    <h1 class="sub-head mb-5" style="font-size: 2.5rem;">Your Order</h1>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card mx-auto mb-5" style="width: 50%;height: auto;">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="assets/img/arrow.png" width="40" height="40" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="assets/img/arrow.png" width="40" height="40" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="assets/img/arrow.png" width="40" height="40" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="assets/img/arrow.png" width="40" height="40" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <h2 class="sub-head mt-5"> 7 Products</h2>
+                        </div>
+                    </div>
+                    <table class="table table-responsive" style="overflow: hidden;white-space: nowrap;">
+                        <tr>
+                            <td>Subtotal</td>
+                            <th>$350.00</th>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <th>$0.00</th>
+                        </tr>
+                        <tr>
+                            <td>Nevada Tax</td>
+                            <th>$1.00</th>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <th>$351.00</th>
+                        </tr>
+                    </table>
+                    <p><button type="submit" class="btn btn-block mt-3" style="white-space: nowrap;">Continue To Payment</button></p>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+
+    
+    <div class="footer">
+        <div class="footer-content">
+            <div class="f-top">
+                <div class="f-col-1">
+
+                    <div class="f-logo-img mb-md-0 mb-5">
+                        <img src="assets/img/logo.svg" class="f-logo-img" alt="logo">
+                    </div>
+
+                    <div class="f-whatsapp-contact ml-n4">
+                        <img src="assets/img/whatsapp_icon.svg" class="whatsapp_icon" alt="icon">
+                        <div class="phone">
+                            <div class="para">
+                                CALL US FREE
+                            </div>
+                            <div class="num">
+                                +1 702-918-8179
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-date">
+                        Mon-Sun: 9:00am - 9:00pm
+                    </div>
+
+                    <div class="social-icons">
+                        <img src="assets/img/instagram.svg" alt="">
+                        <img src="assets/img/facebook-f.svg" alt="">
+                        <img src="assets/img/twitter.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="f-col-2">
+
+                    <div class="title">
+                        Get In Touch
+                    </div>
+
+                    <div class="simple_links">
+                        <a href="#">Add a Business</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="cookie-policy.html">Cookie Policy</a>
+                        <a href="#">Your Account</a>
+                    </div>
+
+                </div>
+                <div class="f-col-3">
+                    <div class="title">
+                        Categories
+                    </div>
+                    <div class="simple_links">
+                        <a href="#">Dispenseries</a>
+                        <a href="#">Deliveries</a>
+                    </div>
+                </div>
+                <div class="f-col-4">
+                    <div class="title">
+                        Payment Method
+                    </div>
+
+                    <div class="cash">
+                        <img src="assets/img/dollar.svg" alt="logo">
+                        <img src="assets/img/stripe.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-bottom">
+                <p class="f-b-left">
+                    Maria brandings © All rights reserved Copyrights 2021
+                </p>
+                <div class="f-b-right">
+                    <a href="#" class="b-nav">HOME</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">SHOP</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">ABOUT</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">CONTACTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+</body>
+
+</html>

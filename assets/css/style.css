@@ -87,6 +87,61 @@ a:hover,a:active{
 
 /*Cookies page style end*/
 
+/*Checkout page*/
+.checkout .contact-form{
+  width: 100%;
+  height: auto;
+}
+
+.checkout .contact-form .form label{
+  font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.checkout .contact-form .form input{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  /* background: #FFFFFF; */
+  border: 1px solid #C3CAD9;
+  /* box-sizing: border-box; */
+  border-radius: 8px;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* background-color: #E5E5E5; */
+  color: #506a7f;
+}
+
+.checkout .contact-form .form select{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  border: 1px solid #C3CAD9;
+  border-radius: 8px;
+  padding-left: 2rem;
+  color: #5A7184;
+  /* background-color: #E5E5E5; */
+  height: 50px;
+}
+
+.checkout .contact-form .form textarea{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  border: 1px solid #C3CAD9;
+  border-radius: 8px;
+  padding: 2rem;
+  padding-top: 1.5rem;
+  /* background-color: #E5E5E5; */
+  color: #5A7184;
+}
+/*Checkout page*/
+
 /*contact us page start*/
 .outer{
   min-height: 135vh;
@@ -1563,6 +1618,43 @@ border-radius: 6px;
   border: none;
   border-radius: 3px;
   background: #4BAC75;
+}
+.checkout .sub-head{
+  font-family: Montserrat_SemiBold, serif;
+  font-size: 1,5rem;
+}
+
+.checkout .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  font-family: Montserrat_SemiBold, serif;
+  font-size: 2rem;
+}
+.checkout .heading .heading-text {
+  position: relative;
+}
+.checkout .heading .heading-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 0.6rem;
+  border: none;
+  border-radius: 3px;
+  background: #4BAC75;
+}
+
+@media only screen and (max-width: 600px) {
+  .checkout .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .banner {
