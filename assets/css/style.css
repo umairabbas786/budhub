@@ -75,6 +75,76 @@ a:hover,a:active{
     color: white;
 }
 
+/*Congrats*/
+  .checkout .text{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 125%;
+text-align: center;
+letter-spacing: 0.005em;
+  }
+  .checkout .login-btn{
+    width: 100%;
+  background: #4BAC75;
+  font-size: 1.6em;
+  color: #ffffff;
+  padding: 1em 0;
+  border-radius: 2em;
+  border: none;
+  }
+/*Congrats*/
+/*Payment Form*/
+  .payment-form {
+    font-family: Poppins-Regular, serif;
+    font-size: 3rem;
+  }
+  .payment-form input[type="radio"]{
+    width: 1.3em;
+    height: 1.3em;
+  }
+  .payment-form .form-check-label{
+    font-weight: 600;
+    margin-left: 10%;
+  }
+  .payment-form .btn-dark{
+    background-color: #000000!important;
+    padding: 20px;
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+  .payment-form .cancle-btn{
+    font-size: 2rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .payment-form .success-btn{
+    font-size: 2rem;
+    background-color: #11AE89;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+  }
+  .payment-form .btn-dark span{
+    font-size: 2.5rem;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .payment-form .img-icon img{
+    margin-top: -25%!important;
+    position: relative;
+    width: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    .payment-form .img-icon img{
+      width: 100%;
+      margin-top: 10%!important;
+      position: relative;
+    }
+  }
+/*Payment Form*/
+
 /*Cookies page Style*/
 .cookies .text{
   font-family: Poppins-Regular, serif;
