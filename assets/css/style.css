@@ -77,6 +77,7 @@ a:hover,a:active{
 
 /*Congrats*/
   .checkout .text{
+    font-family: Poppins-Regular, serif;
     font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -3704,6 +3705,10 @@ border-radius: 6px;
   border: none;
   width: max-content;
 }
+
+/*Product Details*/
+  
+/*Product Details*/
 
 
 html {
