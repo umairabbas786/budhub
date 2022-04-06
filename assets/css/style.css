@@ -120,7 +120,7 @@ letter-spacing: 0.005em;
     border-radius: 10px;
     padding: 5px;
   }
-  .payment-form .success-btn{
+  .success-btn{
     font-size: 2rem;
     background-color: #11AE89;
     border-radius: 10px;
@@ -157,6 +157,141 @@ letter-spacing: 0.005em;
 }
 
 /*Cookies page style end*/
+
+/*User Profile*/
+.profile .head{
+  font-family: Poppins-Regular, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 39px;
+  color: #000000;
+}
+.profile .left ul{
+  list-style-type: none;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 60px;
+}
+.profile .left ul li a{
+  color: #000000;
+  padding-left: 15px;
+}
+.profile .left ul li .active , .profile .left ul li a:hover{
+  border-left: 4px solid #11AE89;
+}
+.profile .right .head{
+  font-family: Poppins-Regular, serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 39px;
+  color: #000000;
+}
+.profile .right .line{
+  border-top: 5px solid black;
+  width: 10%;
+  border-radius: 10px;
+}
+.profile .right .text{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: Poppins-Regular, serif;
+}
+.profile .right .google{
+  width: 50%;
+}
+.profile .right p{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.profile .right .out .avatar{
+  width: 6%;
+}
+.profile .right .out .btn-light{
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.14);
+  border-radius: 3px;
+  font-size:1.5rem;
+  font-family: Poppins-Regular, serif;
+}
+.profile .right .btn-outline-dark{
+  border-color: black;
+
+}
+.profile .right .btn-outline-dark:hover{
+  background-color: #000;
+}
+.profile .right .form label{
+  font-family: Mulish_Regular, serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.profile .right .form input{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  /* background: #FFFFFF; */
+  border: 1px solid #C3CAD9;
+  /* box-sizing: border-box; */
+  border-radius: 8px;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  /* background-color: #E5E5E5; */
+  color: #506a7f;
+}
+
+.profile .right .form select{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  border: 1px solid #C3CAD9;
+  border-radius: 8px;
+  padding-left: 2rem;
+  color: #5A7184;
+  /* background-color: #E5E5E5; */
+  height: 50px;
+}
+
+.profile .right .form textarea{
+  font-family: Mulish_Regular, serif;
+  font-style: normal;
+  font-size: 20px;
+  border: 1px solid #C3CAD9;
+  border-radius: 8px;
+  padding: 2rem;
+  padding-top: 1.5rem;
+  /* background-color: #E5E5E5; */
+  color: #5A7184;
+}
+@media only screen and (max-width: 768px) {
+  .profile .right .text{
+    text-align: center;
+  }
+  .profile .left ul li .active , .profile .left ul li a:hover{
+    border-bottom: 4px solid #11AE89;
+    border-left: 0;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+  .profile .left{
+    overflow-y: scroll;
+  }
+  .profile .left ul{
+    white-space: nowrap;
+  }
+  .profile .left ul li{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+/*User Profile*/
 
 /*Checkout page*/
 .checkout .contact-form{
