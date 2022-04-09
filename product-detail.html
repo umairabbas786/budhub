@@ -7,9 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css'>
     <!-- <link rel="stylesheet" href="homepage.css"> -->
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .container{
+          max-width: 1280px;
+          margin: 0 auto;
+          height: 100%;
+        }
+        </style>
 </head>
 
 <body>
@@ -48,7 +56,233 @@
         </div>
     </nav>
     
-    
+    <div class="product-page">
+        <div class="product">
+            <div class="product-img">
+                <div class="large">
+                    <img src="assets/img/product-img.svg" alt="">
+                </div>
+                <div class="small">
+
+                    <img src="assets/img/small-img.svg" alt="">
+                    <img src="assets/img/small-img.svg" alt="">
+                    <img src="assets/img/small-img.svg" alt="">
+                </div>
+            </div>
+            <div class="product-detail-top">
+                <p class="category">Flower</p>
+                <h1 class="mb-5">Pineapple Express</h1>
+                <div class="rating">
+                    <div class="stars mt-n3">
+                        <img src="assets/img/black-star.svg" alt="">
+                        <img src="assets/img/black-star.svg" alt="">
+                        <img src="assets/img/black-star.svg" alt="">
+                        <img src="assets/img/black-star.svg" alt="">
+                        <img src="assets/img/white-star.svg" alt="">
+                    </div>
+                    <p>US $17.30</p>
+                </div>
+            </div>
+            <div class="product-detail-bottom">
+                <div class="weight">
+                    <p>3.5g <span>$9</span></p>
+                    <p>7g <span>$25</span></p>
+                    <p>14g <span>$39</span></p>
+                    <p>28g <span>$49</span></p>
+                </div>
+                <div class="btn">
+                    <div class="quantity">
+                        <label for="quantity">Qty:</label>
+                        <select name="qty">
+                            <option value="2pcs">2pcs</option>
+                            <option value="3pcs">3pcs</option>
+                            <option value="4pcs">4pcs</option>
+                            <option value="5pcs">5pcs</option>
+                        </select>
+                    </div>
+                    <button class="cart-btn">ADD TO CART</button>
+                </div>
+
+                <div class="comment-box">
+                    <p class="commas">“</p>
+                    <div class="comment">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis ut faucibus ornare vitae
+                            ipsum. Augue sit in adipiscing velit. </p>
+                        <div class="commenter">
+                            <div class="profile">
+                                <img src="assets/img/commenter-img.svg" alt="">
+                                <p>Ramzan</p>
+                            </div>
+                            <div class="arrow">
+                                <img src="assets/img/left-arrow.svg" alt="">
+                                <img src="assets/img/right-arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="commas">“</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="description">
+            <h1>Description</h1>
+            <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum pharetra accumsan
+                amet. Velit sit
+                eu sit nec a ornare. Massa nibh aliquet pulvinar ac vestibulum cursus tristique vitae. Eu odio nunc a
+                urna sem. Ac dui massa pretium est, adipiscing lectus facilisis facilisi maecenas. Sed viverra semper
+                amet, quam. Lobortis metus adipiscing eget sit dapibus tristique adipiscing vestibulum. Orci odio at vel
+                condimentum ut urna egestas molestie sapien. Tristique turpis sem dignissim augue dignissim eget id
+                massa. Nunc nisi, tincidunt facilisi aliquet nibh quis. Mi lorem morbi gravida sapien tincidunt tempus
+                vitae.
+                Placerat ut amet eu aenean neque. Dictum dis a mauris tincidunt commodo sapien. Turpis in tellus tellus
+                sapien ullamcorper vitae. Malesuada mollis sed eget risus, molestie. Vitae ridiculus tellus lectus
+                dictum quis sed amet. Pretium condimentum amet vel quam rutrum elementum accumsan. Venenatis volutpat
+                netus nibh magna diam egestas. Amet cras sed interdum purus sit velit enim integer.</p>
+        </div>
+
+        <div class="extra">
+            <div class="left">
+                <div class="effects">
+                    <h1>Effects</h1>
+                    <p>Energizing, Euphoria, Focus</p>
+                </div>
+                <div class="relieve">
+                    <h1>May Relieve</h1>
+                    <p>Chronic Pain, Depression, Fatigue, Loss of Appetite, Migraines, Nausea, Nightmares</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="flavour">
+                    <h1>Flavors</h1>
+                    <p>Citrus, Pine, Pineapple, Sweet, Tropical</p>
+                </div>
+                <div class="percent">
+                    <p>25% THC</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="related mt-md-0 mt-5">Similar Products</h1>
+        <div class="flowers-card d-md-flex d-none">
+            <div class="card">
+                <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                <div class="card-body">
+                  <p class="price">$34.99</p>
+                  <a href=""><button class="top-rated-btn">Best Pick</button></a>
+                  <h1>Pineapple Express 3.5 Grams</h1>
+                  <p class="percent">60% Sativa / 40% Indica</p>
+                  <button class="cart-btn">ADD TO CART</button>
+                </div>
+              </div>
+              <div class="card">
+                <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                <div class="card-body">
+                  <p class="price">$34.99</p>
+                  <a href=""><button class="top-rated-btn">Best Pick</button></a>
+                  <h1>Pineapple Express 3.5 Grams</h1>
+                  <p class="percent">60% Sativa / 40% Indica</p>
+                  <button class="cart-btn">ADD TO CART</button>
+                </div>
+              </div>
+              <div class="card">
+                <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                <div class="card-body">
+                  <p class="price">$34.99</p>
+                  <a href=""><button class="top-rated-btn">Best Pick</button></a>
+                  <h1>Pineapple Express 3.5 Grams</h1>
+                  <p class="percent">60% Sativa / 40% Indica</p>
+                  <button class="cart-btn">ADD TO CART</button>
+                </div>
+              </div>
+        </div>
+        <div class="container category-slider mt-5 mb-5 d-md-none">   
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                            <div class="card-body">
+                              <p class="price">$34.99</p>
+                              <button class="top-rated-btn">Best Pick</button>
+                              <h1>Pineapple Express 3.5 Grams</h1>
+                              <p class="percent">60% Sativa / 40% Indica</p>
+                              <button class="cart-btn">ADD TO CART</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                            <div class="card-body">
+                              <p class="price">$34.99</p>
+                              <button class="top-rated-btn">Best Pick</button>
+                              <h1>Pineapple Express 3.5 Grams</h1>
+                              <p class="percent">60% Sativa / 40% Indica</p>
+                              <button class="cart-btn">ADD TO CART</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                            <div class="card-body">
+                              <p class="price">$34.99</p>
+                              <button class="top-rated-btn">Best Pick</button>
+                              <h1>Pineapple Express 3.5 Grams</h1>
+                              <p class="percent">60% Sativa / 40% Indica</p>
+                              <button class="cart-btn">ADD TO CART</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                            <div class="card-body">
+                              <p class="price">$34.99</p>
+                              <button class="top-rated-btn">Best Pick</button>
+                              <h1>Pineapple Express 3.5 Grams</h1>
+                              <p class="percent">60% Sativa / 40% Indica</p>
+                              <button class="cart-btn">ADD TO CART</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                            <div class="card-body">
+                              <p class="price">$34.99</p>
+                              <button class="top-rated-btn">Best Pick</button>
+                              <h1>Pineapple Express 3.5 Grams</h1>
+                              <p class="percent">60% Sativa / 40% Indica</p>
+                              <button class="cart-btn">ADD TO CART</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <a href="product-detail.html"><img src="assets/img/flowers-dark.svg" alt=""></a>
+                            <div class="card-body">
+                              <p class="price">$34.99</p>
+                              <button class="top-rated-btn">Best Pick</button>
+                              <h1>Pineapple Express 3.5 Grams</h1>
+                              <p class="percent">60% Sativa / 40% Indica</p>
+                              <button class="cart-btn">ADD TO CART</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        
+                <!-- If we need navigation buttons -->
+                <div id="prev" class="swiper-button-prev"></div>
+                <div id="next" class="swiper-button-next"></div>
+            </div>
+        </div>
+
+    <div class="see-btn">
+        <button class="see-all">See All<img src="assets/img/explore%20button.svg" alt=""></button>
+    </div>
     
     <div class="footer">
         <div class="footer-content">
@@ -146,8 +380,21 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="assets/js/navbar.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="assets/js/slider.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
+    <script>
+        $(document).ready(function() {
+// Swiper: Slider
+    new Swiper('.swiper-container', {
+        loop: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 20
+    });
+});
+
+    </script>
 </body>
 
 </html>

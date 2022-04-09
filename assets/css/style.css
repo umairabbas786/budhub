@@ -75,6 +75,605 @@ a:hover,a:active{
     color: white;
 }
 
+/*Product Detail*/
+.product-img {
+  grid-area: i;
+}
+
+.product-detail-top {
+  grid-area: t;
+}
+
+.product-detail-bottom {
+  grid-area: b;
+}
+
+.product-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.product-page .product {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  padding: 10rem 0 3rem 0;
+  grid-template-areas: 't'
+      'i'
+      'b';
+}
+
+.product-page .product .product-img {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.product-page .product .product-img .large img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.product-page .product .product-img .small {
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.product-page .product .product-detail-top {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-page .product .product-detail-top .category {
+
+  font-family: PlayfairDisplay_Regular, serif;
+  font-size: 4rem;
+  color: #676767;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.6rem;
+  text-align: center;
+
+}
+
+.product-page .product .product-detail-top h1 {
+  padding: 0;
+  text-align: center;
+  font-size: 6rem;
+  font-family: PlayfairDisplay_Regular, serif;
+  letter-spacing: 0.4rem;
+  color: #000000;
+  font-weight: 700;
+}
+
+.product-page .product .product-detail-top .rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-page .product .product-detail-top .rating .stars {
+  display: flex;
+}
+
+.product-page .product .product-detail-top .rating p {
+  display: flex;
+  font-family: Montserrat_SemiBold, serif;
+  font-size: 3rem;
+  color: #4BAC75;
+}
+
+
+
+.product-page .product .product-detail-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-page .product .product-detail-bottom .weight {
+  width: max-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: auto;
+}
+
+.product-page .product .product-detail-bottom .weight p {
+  display: flex;
+  gap: 1rem;
+  font-size: 3rem;
+  border: 3px solid rgba(75, 172, 117, 0.63);
+  padding: 1rem;
+  font-family: Montserrat_SemiBold, serif;
+  border-radius: 0.6rem;
+  justify-content: center;
+}
+
+
+.product-page .product .product-detail-bottom .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+.product-page .product .product-detail-bottom .btn .quantity {
+  border: 1px solid #676767;
+  width: max-content;
+  padding: 1rem 2rem;
+}
+
+.product-page .product .product-detail-bottom .btn .quantity label {
+  font-size: 3rem;
+  font-family: Montserrat_SemiBold, serif;
+  color: #676767;
+  padding-right: 2rem;
+}
+
+.product-page .product .product-detail-bottom .btn .quantity select {
+  font-family: Montserrat_Regular, serif;
+  border: none;
+  font-size: 3rem;
+  background-color: transparent;
+}
+
+
+.btn .cart-btn {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 3rem;
+  padding: 1.3rem 2rem;
+}
+
+
+.product-page .product .product-detail-bottom .comment-box {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 95vw;
+}
+
+.product-page .product .product-detail-bottom .comment-box .commas {
+  font-style: italic;
+  font-family: Montserrat_SemiBold, serif;
+  color: #BFBFBF;
+  font-size: 8rem;
+}
+
+.product-page .product .product-detail-bottom .comment-box .comment {
+  color: #666666;
+  font-style: italic;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.product-page .product .product-detail-bottom .comment-box .comment p {
+  font-size: 3rem;
+  font-family: Montserrat, serif;
+}
+
+.product-page .product .product-detail-bottom .comment-box .comment .commenter {
+  padding-top: 3rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-page .product .product-detail-bottom .comment-box .comment .commenter .profile {
+  display: flex;
+  gap: 2rem;
+}
+
+.product-page .product .product-detail-bottom .comment-box .comment .commenter .arrow {
+  display: flex;
+}
+
+
+.product-page .product .product-detail-bottom .comment-box .comment .commas {
+  transform: rotate(-180deg);
+  font-size: 8rem;
+  font-style: italic;
+  font-family: Montserrat_SemiBold, serif;
+  color: #BFBFBF;
+
+
+}
+
+
+.product-page .description {
+  display: flex;
+  flex-direction: column;
+  color: #666666;
+  font-style: italic;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.product-page .description h1 {
+  padding: 1rem 0;
+  font-size: 4rem;
+
+}
+
+.product-page .description .detail {
+  font-size: 2.5rem;
+  font-family: Montserrat, serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.product-page .extra {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 3.6rem;
+  padding: 2rem;
+}
+
+.product-page .extra .left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.product-page .extra .left .effects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-page .extra .left .effects h1 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-page .extra .left .effects p {
+  font-size: 2.5rem;
+  font-family: DM S-Regular, serif;
+  text-align: center;
+}
+
+
+.product-page .extra .left .relieve {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-page .extra .left .relieve h1 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-page .extra .left .relieve p {
+  font-size: 2.5rem;
+  font-family: DM S-Regular, serif;
+  justify-content: center;
+  padding-left: 1rem;
+  text-align: center;
+
+}
+
+
+.product-page .extra .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.product-page .extra .right .flavour h1 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-page .extra .right .flavour p {
+  font-size: 2.5rem;
+  font-family: DM S-Regular, serif;
+  justify-content: center;
+  padding-left: 1rem;
+  text-align: center;
+
+}
+
+.product-page .extra .right .percent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-page .extra .right .percent p {
+  border: 1px solid black;
+  padding: 1rem;
+  font-size: 3rem;
+  font-family: DM S-Regular, serif;
+}
+
+.product-page .related {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: Mulish_Regular, serif;
+  letter-spacing: 0.3px;
+  padding: 0;
+  position: relative;
+}
+
+.product-page .related::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  right: 20%;
+  width: 60%;
+  height: .6rem;
+  border: none;
+  border-radius: 3px;
+  background: #4BAC75;
+}
+
+.see-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.see-btn .see-all {
+  background-color: #000000;
+  padding: 0.6em 1em;
+  gap: 1em;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  .product-page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+  }
+
+  .product-page .product {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      padding: 10rem 0 3rem 0;
+      grid-template-areas: 'i t'
+          'i b';
+  }
+
+  .product-page .product .product-img {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      justify-content: start;
+      align-items: center;
+      padding-bottom: 3rem;
+  }
+
+  .product-page .product .product-img .large img {
+
+      width: auto;
+  }
+
+  .product-page .product .product-detail-top h1 {
+      padding: 0;
+      text-align: left;
+      font-size: 6rem;
+      font-family: PlayfairDisplay_Regular, serif;
+      letter-spacing: 0.4rem;
+  }
+
+  .product-page .product .product-detail-top .category {
+      font-family: PlayfairDisplay_Regular, serif;
+      font-size: 4rem;
+      color: #676767;
+      text-align: left;
+  }
+
+  .product-page .product .product-detail-top .rating {
+      display: flex;
+      flex-direction: row;
+      justify-content: normal;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 2rem;
+  }
+
+  .product-page .product .product-detail-top .rating .stars {
+      gap: 1rem;
+  }
+
+  .product-page .product .product-detail-top .rating p {
+      font-size: 2rem;
+  }
+
+  .product-page .product .product-detail-bottom {
+      display: flex;
+      justify-content: center;
+  }
+
+  .product-page .product.product-detail-bottom .comment-box {
+      width: auto;
+  }
+
+  .product-page .product.product-detail-bottom .comment-box .comment p {
+      max-width: 100%;
+      line-height: 5rem;
+  }
+
+  .product-page .product.product-detail-bottom .comment-box .comment .commenter {
+      justify-content: space-between;
+  }
+
+  .product-page .product .product-detail-bottom .comment-box .comment .commenter .arrow {
+      gap: 2rem;
+  }
+
+
+  .product-page .product .product-detail-bottom .comment-box .comment .commas {
+      justify-content: initial;
+  }
+
+
+  .product-page .product .product-detail-bottom .weight {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      flex-direction: row;
+      margin: initial;
+  }
+
+  .product-page .product .product-detail-bottom .weight p {
+      flex-direction: column;
+      padding: 1rem 2rem;
+  }
+
+  .product-page .product .product-detail-bottom .btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: normal;
+      align-items: center;
+      gap: 0;
+      padding: 3rem 0;
+  }
+
+
+  .product-page .extra {
+      padding: 2rem;
+      flex-direction: row;
+      gap: 3rem;
+      border: 2px solid rgba(0, 0, 0, 0.18);
+
+      border-radius: 3.6rem;
+      justify-content: space-between;
+  }
+
+  .product-page .extra .left .effects h1 {
+      padding: 0;
+      justify-content: normal;
+  }
+
+  .product-page .extra .left .effects p {
+      font-size: 3rem;
+      font-family: DM S-Regular, serif;
+      text-align: left;
+  }
+
+
+  .product-page .extra .left .relieve h1 {
+      padding: 0;
+      justify-content: normal;
+  }
+
+  .product-page .extra .left .relieve p {
+      font-size: 2.5rem;
+      font-family: DM S-Regular, serif;
+      text-align: left;
+
+  }
+
+
+  .product-page .extra .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4rem;
+  }
+
+  .product-page .extra .right h1 {
+      justify-content: normal;
+  }
+
+  .product-page .extra .right p {
+      font-size: 2.5rem;
+      font-family: DM S-Regular, serif;
+      padding: 0;
+      text-align: left;
+
+  }
+
+  .product-page .extra .right .percent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .product-page .extra .right .percent p {
+      border: 1px solid black;
+      padding: 1rem;
+      font-size: 3rem;
+      font-family: DM S-Regular, serif;
+  }
+
+  .product-page .related {
+      padding: 2rem;
+  }
+
+  .product-page .related ::after {
+      display: none;
+  }
+
+
+  .product-page .description h1 {
+
+      padding: 1rem;
+      letter-spacing: 0.3rem;
+  }
+
+  .product-page .description .detail {
+      line-height: 5rem;
+      padding-bottom: 5rem;
+      text-decoration: none;
+      font-size: 2.5rem;
+
+
+  }
+}
+/*Product Detail*/
 /*Congrats*/
   .checkout .text{
     font-family: Poppins-Regular, serif;
