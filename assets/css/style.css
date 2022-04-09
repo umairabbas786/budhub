@@ -445,6 +445,31 @@ a:hover,a:active{
   background: #4BAC75;
 }
 
+.relatedd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: Mulish_Regular, serif;
+  letter-spacing: 0.3px;
+  padding: 0;
+  position: relative;
+}
+
+.relatedd::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  right: 45%;
+  width: 10%;
+  height: .6rem;
+  border: none;
+  border-radius: 3px;
+  background: #4BAC75;
+}
+
 .see-btn {
   display: flex;
   justify-content: center;
