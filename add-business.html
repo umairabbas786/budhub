@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="homepage.css"> -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <button class="menu-img">
+            <img src="assets/img/bar-menu.svg" alt="menu" onclick="openDrawer()">
+        </button>
+
+        <img src="assets/img/logo.svg" alt="" class="brand">
+
+        <button class="close-btn" id="drawer-close-btn" onclick="closeDrawer()">
+            <img src="assets/img/close-icon.svg" alt="menu">
+        </button>
+
+        <div class="drawer" id="drawer">
+
+            <img src="assets/img/logo.svg" alt="" class="drawer-brand">
+
+            <div class="location">
+                <input type="text" placeholder="Enter a location" class="location-input">
+                <img src="assets/img/location-icon.svg" alt="" class="location-icon">
+            </div>
+
+            <div class="navigation">
+                <a href="index.html" class="nav-links" autofocus>HOME</a>
+                <a href="contact-us.html" class="nav-links">CONTACT</a>
+                <a href="login.html" class="nav-links">LOGIN</a>
+                <a href="signup.html" class="nav-links">SIGN UP</a>
+            </div>
+
+            <div class="right-icons">
+                <a href="cart.html"><img src="assets/img/cart.svg" alt="" class="cart"></a>
+                <a href="#"><img src="assets/img/profile.svg" alt="" class="profile"></a>
+                <a href="#"><img src="assets/img/navbar-search.svg" alt="" class="search"></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="cookies profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="heading">
+                        <h1 class="heading-text">Add a Business</h1>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-5">
+                    <p class="text">Complete and submit the form below. Your business will appear on Weedmaps after our
+                        account team contacts you and verifies the information.</p>
+                    <p class="text">If you are submitting this application on behalf of a company or other legal entity,
+                        you represent that you have the authority to bind such entity to the terms and conditions set
+                        forth herein.</p>
+                </div>
+                <form action="" method="POST">
+                    <div class="col-md-12 mt-5 right">
+                        <h1 class="hhhead">Contact</h1>
+                        <div class="row form">
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">First Name*</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Last Name*</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Phone Number*</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email Address*</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Business Role*</label>
+                                    <select name="role" class="form-control" id="exampleInputEmail1">
+                                        <option value="" disabled selected>Select a business role</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-5 right">
+                        <h1 class="hhhead">Business</h1>
+                        <div class="row form">
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Business Name*</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Business Type*</label>
+                                    <select name="role" class="form-control" id="exampleInputEmail1">
+                                        <option value="" disabled selected>Select a business type</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Country*</label>
+                                    <select name="role" class="form-control" id="exampleInputEmail1">
+                                        <option value="" disabled selected>Select your country</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Address Line 1</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Address Line 2</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">City</label>
+                                    <select name="role" class="form-control" id="exampleInputEmail1">
+                                        <option value="" disabled selected>Select your city</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">State/Province</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Postal Code*</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Website</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-5 right">
+                        <h1 class="hhhead">License</h1>
+                        <div class="row form">
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">License Number*</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">License Type*</label>
+                                    <select name="role" class="form-control" id="exampleInputEmail1">
+                                        <option value="" disabled selected>Select a license type</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-5 mb-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Expiration*</label>
+                                    <input type="date" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-5 mb-5">
+                        <h1 class="hhhead">Terms and Conditions</h1>
+                        <ul class=" mt-5 text ml-5">
+                            <li>You consent to Weedmaps’ collection of your name, phone number, email address, business name, business address, and other business information for the limited purposes of verifying and evaluating your application to add your business to the Weedmaps platform, for any purposes related to your commercial use of our products or services and for our representatives to contact you with respect thereto.</li>
+                            <li>You acknowledge that you are not a minor as legally defined in your municipality, state, province, territory, or country.</li>
+                            <li>You agree that Weedmaps may share your personal data with third parties for the limited purpose of providing you with the Authorized Communications.</li>
+                            <li>You understand that you will have the opportunity to unsubscribe from the Authorized Communications and request the deletion of your personal data from Weedmaps’ systems at any time.</li>
+                            <li>You acknowledge that you have read and agree to be bound by the Weedmaps Terms of Use and Privacy Policy.</li>
+                            <li>You acknowledge that you have read and agree to be bound by the Weedmaps Commercial Terms.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 my-5">
+                        <center><button class="success-btn btn px-5 btn-lg" style="background: rgba(22, 173, 87, 1);">Add a Business</button></center>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="f-top">
+                <div class="f-col-1">
+
+                    <div class="f-logo-img mb-md-0 mb-5">
+                        <img src="assets/img/logo.svg" class="f-logo-img" alt="logo">
+                    </div>
+
+                    <div class="f-whatsapp-contact ml-n4">
+                        <img src="assets/img/whatsapp_icon.svg" class="whatsapp_icon" alt="icon">
+                        <div class="phone">
+                            <div class="para">
+                                CALL US FREE
+                            </div>
+                            <div class="num">
+                                +1 702-918-8179
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-date">
+                        Mon-Sun: 9:00am - 9:00pm
+                    </div>
+
+                    <div class="social-icons">
+                        <img src="assets/img/instagram.svg" alt="">
+                        <img src="assets/img/facebook-f.svg" alt="">
+                        <img src="assets/img/twitter.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="f-col-2">
+
+                    <div class="title">
+                        Get In Touch
+                    </div>
+
+                    <div class="simple_links">
+                        <a href="#">Add a Business</a>
+                        <a href="terms.html">Terms of Use</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="cookie-policy.html">Cookie Policy</a>
+                        <a href="profile-account.html">Your Account</a>
+                    </div>
+
+                </div>
+                <div class="f-col-3">
+                    <div class="title">
+                        Categories
+                    </div>
+                    <div class="simple_links">
+                        <a href="#">Dispenseries</a>
+                        <a href="#">Deliveries</a>
+                    </div>
+                </div>
+                <div class="f-col-4">
+                    <div class="title">
+                        Payment Method
+                    </div>
+
+                    <div class="cash">
+                        <img src="assets/img/dollar.svg" alt="logo">
+                        <img src="assets/img/stripe.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-bottom">
+                <p class="f-b-left">
+                    Maria brandings © All rights reserved Copyrights 2021
+                </p>
+                <div class="f-b-right">
+                    <a href="#" class="b-nav">HOME</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">SHOP</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">ABOUT</a>
+                    <div class="v-line"></div>
+                    <a href="#" class="b-nav">CONTACTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+</body>
+
+</html>
